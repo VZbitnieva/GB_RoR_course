@@ -13,7 +13,8 @@ language = PARSED_LANGUAGE || I18n.default_locale
 
 I18n.locale = language
 
-I18n.fallbacks = [I18n.default_locale]
+I18n.backend.class.send(:include, I18n::Backend::Fallbacks)
+I18n.fallbacks[:en] = %i[en uk ru]
 
 print "#{I18n.t('enter.name')}: "
 my_name = gets.chomp
