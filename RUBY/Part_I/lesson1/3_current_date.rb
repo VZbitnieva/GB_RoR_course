@@ -1,13 +1,12 @@
 # frozen_string_literal: true
 
+require_relative '../../lib/constants'
 require 'rubygems'
 require 'bundler/setup'
 
 Bundler.require(:default)
-LANGUAGE = ENV['LANG'] || 'en'
-parsed_language = LANGUAGE.split('_').first.to_sym
 
 I18n.load_path << Dir["#{File.expand_path('../../config/locales')}/*.yml"]
-I18n.default_locale = parsed_language
+I18n.default_locale = PARSED_LANGUAGE
 
-puts "Текущая дата: #{I18n.l(Time.now, format: :date_format)}"
+puts "#{I18n.t('phrases.current_date')}: #{I18n.l(Time.now, format: :date_format)}"

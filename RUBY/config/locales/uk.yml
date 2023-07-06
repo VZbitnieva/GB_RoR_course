@@ -25,6 +25,8 @@ uk:
       long: "%d %B %Y, %H:%M"
       date_format: "%d %B %Y"
   greetings:
-    hello: 'Вітаю'
+    hello: 'Привіт'
   enter:
     name: "Введіть ваше ім'я"
+  phrases:
+    current_date: 'Поточна дата'

@@ -28,3 +28,5 @@ ru:
     hello: 'Привет'
   enter:
     name: 'Введите свое имя'
+  phrases:
+    current_date: 'Текущая дата'
