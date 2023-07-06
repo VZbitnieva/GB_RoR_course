@@ -1,0 +1,30 @@
+uk:
+  date:
+    formats:
+      default: "%d.%m.%Y"
+      short: "%d %b"
+      long: "%d %B %Y"
+    month_names:
+      -
+      - Січня
+      - Лютого
+      - Березня
+      - Квітня
+      - Травня
+      - Червня
+      - Липня
+      - Серпня
+      - Вересня
+      - Жовтня
+      - Листопада
+      - Грудня
+  time:
+    formats:
+      default: "%a, %d %b %Y, %H:%M:%S %z"
+      short: "%d %b, %H:%M"
+      long: "%d %B %Y, %H:%M"
+      date_format: "%d %B %Y"
+  greetings:
+    hello: 'Вітаю'
+  enter:
+    name: "Введіть ваше ім'я"

@@ -1,5 +1,15 @@
 # frozen_string_literal: true
 
-print 'Enter your name: '
+require 'rubygems'
+require 'bundler/setup'
+
+Bundler.require(:default)
+LANGUAGE = ENV['LANG'] || 'en'
+parsed_language = LANGUAGE.split('_').first.to_sym
+
+I18n.load_path << Dir["#{File.expand_path('../../config/locales')}/*.yml"]
+I18n.default_locale = parsed_language
+
+print "#{I18n.t('enter.name')}: "
 my_name = gets.chomp
-puts "Hello, #{my_name}"
+puts "#{I18n.t('greetings.hello')}, #{my_name}!"

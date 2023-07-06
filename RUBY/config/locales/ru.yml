@@ -1,0 +1,30 @@
+ru:
+  date:
+    formats:
+      default: "%d.%m.%Y"
+      short: "%d %b"
+      long: "%d %B %Y"
+    month_names:
+      - 
+      - Января
+      - Февраля
+      - Марта
+      - Апреля
+      - Мая
+      - Июня
+      - Июля
+      - Августа
+      - Сентября
+      - Октября
+      - Ноября
+      - Декабря
+  time:
+    formats:
+      default: "%a, %d %b %Y, %H:%M:%S %z"
+      short: "%d %b, %H:%M"
+      long: "%d %B %Y, %H:%M"
+      date_format: "%d %B %Y"
+  greetings:
+    hello: 'Привет'
+  enter:
+    name: 'Введите свое имя'
