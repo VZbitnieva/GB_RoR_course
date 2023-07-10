@@ -1,0 +1,12 @@
+en:
+  phrases:
+    current_date: 'Current date'
+    row: 'Row'
+    seat: 'Seat'
+    event: 'Event'
+    user: 'User'
+    computer: 'Computer'
+    network: 'Network'
+    host: 'Host'
+    full_name: 'Full name'
+    profession: 'Profession'

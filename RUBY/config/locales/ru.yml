@@ -28,5 +28,7 @@ ru:
     hello: 'Привет'
   enter:
     name: 'Введите свое имя'
-  phrases:
-    current_date: 'Текущая дата'
+    full_name: 'Введите ваше ФИО'
+    profession: 'Введите вашу профессию'
+    data_saving: 'Информация сохранена'
+    data_saving_file: 'Информация сохранена в файл'

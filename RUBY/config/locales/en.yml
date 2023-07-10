@@ -28,5 +28,8 @@ en:
     hello: 'Hello'
   enter:
     name: "Enter your name"
-  phrases:
-    current_date: 'Current date'
+    full_name: 'Enter your full name'
+    profession: 'Enter your full profession'
+    data_saving: 'Information saved'
+    data_saving_file: 'Information saved to a file'
+

@@ -1,0 +1,12 @@
+uk:
+  phrases:
+    current_date: 'Поточна дата'
+    row: 'Ряд'
+    seat: 'Місце'
+    event: 'Захід'
+    user: 'Користувач'
+    computer: "Комп'ютер"
+    network: 'Мережа'
+    host: 'Хост'
+    full_name: 'ПІБ'
+    profession: 'Професія'
