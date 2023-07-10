@@ -8,3 +8,5 @@ uk:
     computer: "Комп'ютер"
     network: 'Мережа'
     host: 'Хост'
+    full_name: 'ПІБ'
+    profession: 'Професія'

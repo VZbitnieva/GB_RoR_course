@@ -8,3 +8,5 @@ en:
     computer: 'Computer'
     network: 'Network'
     host: 'Host'
+    full_name: 'Full name'
+    profession: 'Profession'

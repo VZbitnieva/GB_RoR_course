@@ -8,3 +8,5 @@ ru:
     computer: 'Компьютер'
     network: 'Сеть'
     host: 'Хост'
+    full_name: 'ФИО'
+    profession: 'Профессия'
