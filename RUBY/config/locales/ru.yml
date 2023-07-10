@@ -30,3 +30,6 @@ ru:
     name: 'Введите свое имя'
   phrases:
     current_date: 'Текущая дата'
+    row: 'Ряд'
+    seat: 'Место'
+    event: 'Мероприятие'
