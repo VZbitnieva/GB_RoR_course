@@ -1,0 +1,10 @@
+ru:
+  phrases:
+    current_date: 'Текущая дата'
+    row: 'Ряд'
+    seat: 'Место'
+    event: 'Мероприятие'
+    user: 'Пользователь'
+    computer: 'Компьютер'
+    network: 'Сеть'
+    host: 'Хост'

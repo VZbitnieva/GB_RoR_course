@@ -28,5 +28,3 @@ uk:
     hello: 'Привіт'
   enter:
     name: "Введіть ваше ім'я"
-  phrases:
-    current_date: 'Поточна дата'

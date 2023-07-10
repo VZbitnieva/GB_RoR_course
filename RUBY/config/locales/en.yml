@@ -28,8 +28,3 @@ en:
     hello: 'Hello'
   enter:
     name: "Enter your name"
-  phrases:
-    current_date: 'Current date'
-    row: 'Row'
-    seat: 'Seat'
-    event: 'Event'
