@@ -1,0 +1,12 @@
+# frozen_string_literal: true
+
+require_relative '../../lib/i18n_setup'
+
+desc 'Default task'
+task default: 'date:today'
+namespace :date do
+  desc 'Displaying the current date'
+  task :today do
+    puts "#{I18n.t('phrases.current_date')}: #{I18n.l(Time.now, format: :date_format)}"
+  end
+end
