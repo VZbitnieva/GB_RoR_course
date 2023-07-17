@@ -1,12 +1,22 @@
+---
 ru:
   phrases:
-    current_date: 'Текущая дата'
-    row: 'Ряд'
-    seat: 'Место'
-    event: 'Мероприятие'
-    user: 'Пользователь'
-    computer: 'Компьютер'
-    network: 'Сеть'
-    host: 'Хост'
-    full_name: 'ФИО'
-    profession: 'Профессия'
+    computer: Компьютер
+    current_date: Текущая дата
+    distance: Растояние между точками
+    event: Мероприятие
+    full_name: ФИО
+    host: Хост
+    network: Сеть
+    profession: Профессия
+    row: Ряд
+    seat: Место
+    user: Пользователь
+  rainbow:
+    - красный
+    - оранжевый
+    - желтый
+    - зелёный
+    - голубой
+    - синий
+    - фиолетовый

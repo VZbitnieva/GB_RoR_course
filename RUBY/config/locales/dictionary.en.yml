@@ -1,12 +1,22 @@
+---
 en:
   phrases:
-    current_date: 'Current date'
-    row: 'Row'
-    seat: 'Seat'
-    event: 'Event'
-    user: 'User'
-    computer: 'Computer'
-    network: 'Network'
-    host: 'Host'
-    full_name: 'Full name'
-    profession: 'Profession'
+    computer: Computer
+    current_date: Current date
+    distance: Distance between points
+    event: Event
+    full_name: Full name
+    host: Host
+    network: Network
+    profession: Profession
+    row: Row
+    seat: Seat
+    user: User
+  rainbow:
+    - red
+    - orange
+    - yellow
+    - green
+    - blue
+    - indigo
+    - violet

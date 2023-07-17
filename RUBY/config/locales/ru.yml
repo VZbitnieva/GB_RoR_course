@@ -1,11 +1,20 @@
+---
 ru:
   date:
+    day_names:
+      - воскресенье
+      - понедельник
+      - вторник
+      - среда
+      - четверг
+      - пятница
+      - суббота
     formats:
-      default: "%d.%m.%Y"
-      short: "%d %b"
-      long: "%d %B %Y"
+      default: '%d.%m.%Y'
+      long: '%d %B %Y'
+      short: '%d %b'
     month_names:
-      - 
+      - null
       - Января
       - Февраля
       - Марта
@@ -18,17 +27,17 @@ ru:
       - Октября
       - Ноября
       - Декабря
+  enter:
+    data_saving: Информация сохранена
+    data_saving_file: Информация сохранена в файл
+    full_name: Введите ваше ФИО
+    name: Введите свое имя
+    profession: Введите вашу профессию
+  greetings:
+    hello: Привет
   time:
     formats:
-      default: "%a, %d %b %Y, %H:%M:%S %z"
-      short: "%d %b, %H:%M"
-      long: "%d %B %Y, %H:%M"
-      date_format: "%d %B %Y"
-  greetings:
-    hello: 'Привет'
-  enter:
-    name: 'Введите свое имя'
-    full_name: 'Введите ваше ФИО'
-    profession: 'Введите вашу профессию'
-    data_saving: 'Информация сохранена'
-    data_saving_file: 'Информация сохранена в файл'
+      date_format: '%d %B %Y'
+      default: '%a, %d %b %Y, %H:%M:%S %z'
+      long: '%d %B %Y, %H:%M'
+      short: '%d %b, %H:%M'

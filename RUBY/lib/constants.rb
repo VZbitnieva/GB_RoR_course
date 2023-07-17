@@ -1,4 +1,7 @@
 # frozen_string_literal: true
 
-LANGUAGE = ENV['LANG'] || 'en'
-PARSED_LANGUAGE = LANGUAGE.split('_').first.to_sym
+require_relative './i18n_setup'
+
+DAYS_OF_THE_WEEK = I18n.t('date.day_names')
+RAINBOW = I18n.t('rainbow')
+RAINBOW_EN = I18n.t('rainbow', locale: :en)
