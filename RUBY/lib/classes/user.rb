@@ -3,7 +3,8 @@
 class User
   attr_accessor :name, :full_name, :profession
 
-  def initialize(name: '')
+  def initialize(name: '', full_name: '')
     @name = name
+    @full_name = full_name
   end
 end
