@@ -1,4 +1,17 @@
+---
 uk:
+  phrases:
+    computer: Комп'ютер
+    current_date: Поточна дата
+    distance: Відстань між точками
+    event: Захід
+    full_name: ПІБ
+    host: Хост
+    network: Мережа
+    profession: Професія
+    row: Ряд
+    seat: Місце
+    user: Користувач
   rainbow:
     - червоний
     - оранжевий
@@ -7,14 +20,3 @@ uk:
     - блакитний
     - синій
     - фіолетовий
-  phrases:
-    current_date: 'Поточна дата'
-    row: 'Ряд'
-    seat: 'Місце'
-    event: 'Захід'
-    user: 'Користувач'
-    computer: "Комп'ютер"
-    network: 'Мережа'
-    host: 'Хост'
-    full_name: 'ПІБ'
-    profession: 'Професія'

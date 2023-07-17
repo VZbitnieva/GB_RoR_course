@@ -1,11 +1,20 @@
+---
 uk:
   date:
+    day_names:
+      - неділя
+      - понеділок
+      - вівторок
+      - середа
+      - четвер
+      - п`ятниця
+      - субота
     formats:
-      default: "%d.%m.%Y"
-      short: "%d %b"
-      long: "%d %B %Y"
+      default: '%d.%m.%Y'
+      long: '%d %B %Y'
+      short: '%d %b'
     month_names:
-      -
+      - null
       - Січня
       - Лютого
       - Березня
@@ -18,25 +27,17 @@ uk:
       - Жовтня
       - Листопада
       - Грудня
-    day_names:
-      - неділя
-      - понеділок
-      - вівторок
-      - середа
-      - четвер
-      - п`ятниця
-      - субота
+  enter:
+    data_saving: Інформація збережена
+    data_saving_file: Інформація збережена у файл
+    full_name: Введыть ваше ПІБ
+    name: Введіть ваше ім'я
+    profession: Введіть вашу професію
+  greetings:
+    hello: Привіт
   time:
     formats:
-      default: "%a, %d %b %Y, %H:%M:%S %z"
-      short: "%d %b, %H:%M"
-      long: "%d %B %Y, %H:%M"
-      date_format: "%d %B %Y"
-  greetings:
-    hello: 'Привіт'
-  enter:
-    name: "Введіть ваше ім'я"
-    full_name: 'Введыть ваше ПІБ'
-    profession: 'Введіть вашу професію'
-    data_saving: 'Інформація збережена'
-    data_saving_file: 'Інформація збережена у файл'
+      date_format: '%d %B %Y'
+      default: '%a, %d %b %Y, %H:%M:%S %z'
+      long: '%d %B %Y, %H:%M'
+      short: '%d %b, %H:%M'

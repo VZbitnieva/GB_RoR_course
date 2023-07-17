@@ -1,11 +1,20 @@
+---
 en:
   date:
+    day_names:
+      - Sunday
+      - Monday
+      - Tuesday
+      - Wednesday
+      - Thursday
+      - Friday
+      - Saturday
     formats:
-      default: "%d.%m.%Y"
-      short: "%d %b"
-      long: "%d %B %Y"
+      default: '%d.%m.%Y'
+      long: '%d %B %Y'
+      short: '%d %b'
     month_names:
-      - 
+      - null
       - January
       - February
       - March
@@ -18,26 +27,17 @@ en:
       - October
       - November
       - December
-    day_names:
-      - Sunday
-      - Monday
-      - Tuesday
-      - Wednesday
-      - Thursday
-      - Friday
-      - Saturday
+  enter:
+    data_saving: Information saved
+    data_saving_file: Information saved to a file
+    full_name: Enter your full name
+    name: Enter your name
+    profession: Enter your full profession
+  greetings:
+    hello: Hello
   time:
     formats:
-      default: "%a, %d %b %Y, %H:%M:%S %z"
-      short: "%d %b, %H:%M"
-      long: "%d %B %Y, %H:%M"
-      date_format: "%d %B %Y"
-  greetings:
-    hello: 'Hello'
-  enter:
-    name: "Enter your name"
-    full_name: 'Enter your full name'
-    profession: 'Enter your full profession'
-    data_saving: 'Information saved'
-    data_saving_file: 'Information saved to a file'
-
+      date_format: '%d %B %Y'
+      default: '%a, %d %b %Y, %H:%M:%S %z'
+      long: '%d %B %Y, %H:%M'
+      short: '%d %b, %H:%M'
