@@ -1,4 +1,12 @@
 en:
+  rainbow:
+    - red
+    - orange
+    - yellow
+    - green
+    - blue
+    - indigo
+    - violet
   phrases:
     current_date: 'Current date'
     row: 'Row'
