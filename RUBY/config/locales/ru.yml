@@ -34,7 +34,11 @@ ru:
     name: Введите свое имя
     profession: Введите вашу профессию
   greetings:
+    day: Добрый день
+    evening: Добрый вечер
     hello: Привет
+    morning: Доброе утро
+    night: Спокойной ночи
   time:
     formats:
       date_format: '%d %B %Y'

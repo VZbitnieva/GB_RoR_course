@@ -34,7 +34,11 @@ en:
     name: Enter your name
     profession: Enter your full profession
   greetings:
+    day: Good afternoon
+    evening: Good evening
     hello: Hello
+    morning: Good morning
+    night: Good night
   time:
     formats:
       date_format: '%d %B %Y'

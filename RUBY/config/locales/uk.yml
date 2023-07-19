@@ -34,7 +34,11 @@ uk:
     name: Введіть ваше ім'я
     profession: Введіть вашу професію
   greetings:
+    day: Добридень
+    evening: Добрий вечір
     hello: Привіт
+    morning: Доброго ранку
+    night: Добраніч
   time:
     formats:
       date_format: '%d %B %Y'
