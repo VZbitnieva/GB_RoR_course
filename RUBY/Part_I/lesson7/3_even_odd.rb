@@ -13,7 +13,7 @@ end
 
 num = num.to_i
 
-if num.even?
+if (num & 1).zero?
   puts "#{num} - even number"
 else
   puts "#{num} - odd number"
