@@ -31,6 +31,7 @@ en:
     data_saving: Information saved
     data_saving_file: Information saved to a file
     full_name: Enter your full name
+    integer: Enter an integer
     name: Enter your name
     profession: Enter your full profession
   greetings:
