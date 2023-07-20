@@ -31,6 +31,7 @@ ru:
     data_saving: Информация сохранена
     data_saving_file: Информация сохранена в файл
     full_name: Введите ваше ФИО
+    integer: Введите целое число
     name: Введите свое имя
     profession: Введите вашу профессию
   greetings:
