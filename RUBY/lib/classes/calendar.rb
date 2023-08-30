@@ -2,8 +2,8 @@
 
 require_relative '../constants'
 
-class Rainbow
-  def colors(num)
-    RAINBOW[num - 1]
+class Calendar
+  def week(num)
+    DAYS_OF_THE_WEEK.rotate[num - 1]
   end
 end
