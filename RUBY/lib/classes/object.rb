@@ -10,4 +10,10 @@ class Object
   def valid?
     !empty? && !none?(&:numeric?)
   end
+
+  def integer?
+    !Integer(self).nil?
+  rescue StandardError
+    false
+  end
 end
