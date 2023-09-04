@@ -13,5 +13,5 @@ if check.numeric?
     puts "#{check} is a negative number"
   end
 else
-  puts "#{check} isn`t a number!"
+  puts "#It isn`t a number!""
 end
