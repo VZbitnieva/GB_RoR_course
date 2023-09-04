@@ -2,11 +2,11 @@
 
 require_relative '../../lib/classes/object'
 
-arr = ARGV.first
+check = ARGV.first
 
-if arr.numeric?
-  if arr.integer?
-    puts 'It Is Integer'
+if check.numeric?
+  if check.integer?
+    puts 'It is Integer'
   else
     puts ' It is Float'
   end
