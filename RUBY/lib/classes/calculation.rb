@@ -4,4 +4,8 @@ class Calculation
   def distance(a, b)
     Math.sqrt((b.x - a.x)**2 + (b.y - a.y)**2)
   end
+
+  def self.sum(*numbers)
+    numbers.flatten.sum
+  end
 end
