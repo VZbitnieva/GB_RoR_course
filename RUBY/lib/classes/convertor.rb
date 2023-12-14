@@ -8,4 +8,8 @@ class Convertor
   def far2cel(degrees)
     ((degrees - 32) * 5 / 9).round
   end
+
+  def convert(multiplier, *value)
+    value.map { |n| n * multiplier }
+  end
 end
