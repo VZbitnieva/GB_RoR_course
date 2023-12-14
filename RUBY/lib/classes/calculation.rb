@@ -35,4 +35,8 @@ class Calculation
     phi = (1 + sqrt5) / 2
     ((phi**n - (-1 / phi)**n) / sqrt5).round
   end
+
+  def factorial(n)
+    (1..n).inject(1, :*)
+  end
 end
